@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <title>Jaramiah</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="main-nav">
+    <div class="container">
+      <div class="main-nav-content">
+        <a href="#home" class="logo">Jaramiah</a>
+        <div class="main-nav-title">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#qualification">Qualification</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Side Navbar -->
+  <nav class="side-menu">
+    <div class="side-menu-content">
+      <div class="row">
+        <a href="#home">
+          <i class="fas fa-home"></i>
+          <p>home</p>
+        </a>
+        <a href="#about">
+          <i class="fas fa-address-card"></i>
+          <p>about</p>
+        </a>
+        <a href="#skills">
+          <i class="fas fa-running"></i>
+          <p>skills</p>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#qualification">
+          <i class="fas fa-school"></i>
+          <p>qualification</p>
+        </a>
+        <a href="#projects">
+          <i class="fas fa-file-code"></i>
+          <p>projects</p>
+        </a>
+        <a href="#contact">
+          <i class="fas fa-phone"></i>
+          <p>contact</p>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- home running address-card school file-code phone-->
+
+  <!-- navbar button on smaller screen size -->
+  <button type="button" title="Open navigation" id="sidenav-btn"><i class="fas fa-th-large"></i></button>
+
+  <!-- Home page -->
+  <header id="home" class="home">
+    <img src="img/img-1.jpg" alt="myself" id="home-img">
+    <div class="gray-overlay">
+      <div class="container">
+        <div class="home-content">
+          <div class="home-content-info">
+            <h2 class="title">Hi, I am</h2>
+            <h1 class="title title-info">Vince Jepoy Mendoza</h1>
+            <h2 class="title title-sub">Web Developer</h2>
+          </div>
+          <div class="home-content-side">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About page -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-container">
+        <div class="section-info">
+          <h2 class="section-info-title">About Me</h2>
+          <h2 class="section-info-title-sub">Introduction</h2>
+        </div>
+        <div class="about-content">
+          <img src="img/img-2.jpg" alt="Me 1">
+          <div class="about-content-info">
+            <p class="lead">Currently on 3rd year of college studying Bachelour of Science on Computer Science focuses on web development</p>
+            <a href="#" id="btn-resume" class="btn btn-resume">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills page -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-container">
+        <div class="section-info">
+          <h2 class="section-info-title">Skills</h2>
+          <h2 class="section-info-title-sub">My Technical Level</h2>
+        </div>
+        <!-- Accordion -->
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-item-header active">
+              <div class="accordion-item-header-title">
+                <i class="fas fa-code"></i>
+                <div>
+                  <p class="lead">Front<span>End</span> Developer</p>
+                  <p class="text-muted">2 years of Experience</p>
+                </div>
+              </div>
+              <button class="accordion-btn"><i class="fas fa-chevron-circle-down"></i></button>
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <!-- Start accordion item -->
+                <div class="accordion-item-body-content-item">
+                  <div class="accordion-item-lang-title">
+                    <span>HTMl5 <i class="fab fa-html5" style="color: darkorange;"></i> </span>
+                    <p>90%</p>
+                  </div>
+                  <div class="accordion-progress">
+                    <span style="width: 90%;"></span>
+                  </div>
+                </div>
+                <!-- End of accordion item -->
+                <div class="accordion-item-body-content-item">
+                  <div class="accordion-item-lang-title">
+                    <span>CSS3 <i class="fab fa-css3-alt" style="color: #0096C7;"></i> </span>
+                    <p>80%</p>
+                  </div>
+                  <div class="accordion-progress">
+                    <span style="width: 80%;"></span>
+                  </div>
+                </div>
+                <!-- End of accordion item -->
+                <div class="accordion-item-body-content-item">
+                  <div class="accordion-item-lang-title">
+                    <span>Javascript <i class="fab fa-js" style="color: #D8D827;"></i> </span>
+                    <p>70%</p>
+                  </div>
+                  <div class="accordion-progress">
+                    <span style="width: 70%;"></span>
+                  </div>
+                </div>
+                <!-- End of accordion item -->
+                <div class="accordion-item-body-content-item">
+                  <div class="accordion-item-lang-title">
+                    <span>React <i class="fab fa-react" style="color: lightskyblue;"></i> </span>
+                    <p>85%</p>
+                  </div>
+                  <div class="accordion-progress">
+                    <span style="width: 85%;"></span>
+                  </div>
+                </div>
+                <!-- End of accordion item -->
+              </div>
+            </div>
+          </div>
+          <!-- Accordion item -->
+          <div class="accordion-item">
+            <div class="accordion-item-header active">
+              <div class="accordion-item-header-title">
+                <i class="fas fa-server"></i>
+                <div>
+                  <p class="lead">Back<span>End</span> Developer</p>
+                  <p class="text-muted">2 years of Experience</p>
+                </div>
+              </div>
+              <button class="accordion-btn"><i class="fas fa-chevron-circle-down"></i></button>
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <!-- Start accordion item -->
+                <div class="accordion-item-body-content-item">
+                  <div class="accordion-item-lang-title">
+                    <span>Node JS <i class="fab fa-node" style="color: green;"></i> </span>
+                    <p>70%</p>
+                  </div>
+                  <div class="accordion-progress">
+                    <span style="width: 70%;"></span>
+                  </div>
+                </div>
+                <!-- End of accordion item -->
+                <div class="accordion-item-body-content-item">
+                  <div class="accordion-item-lang-title">
+                    <span>MongoDB <i class="fab fa-envira" style="color: green;"></i> </span>
+                    <p>85%</p>
+                  </div>
+                  <div class="accordion-progress">
+                    <span style="width: 85%;"></span>
+                  </div>
+                </div>
+                <!-- End of accordion item -->
+              </div>
+            </div>
+          </div>
+          <!-- Accordion item -->
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              <div class="accordion-item-header-title">
+                <i class="fas fa-male"></i>
+                <div>
+                  <p class="lead">Other</p>
+                </div>
+              </div>
+              <button class="accordion-btn"><i class="fas fa-chevron-circle-down"></i></button>
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <!-- Start accordion item -->
+                <div class="accordion-item-body-content-item">
+                  <div class="accordion-item-lang-title">
+                    <span>Figma <i class="fab fa-figma" style="color: green;"></i> </span>
+                    <p>90%</p>
+                  </div>
+                  <div class="accordion-progress">
+                    <span style="width: 90%;"></span>
+                  </div>
+                </div>
+                <!-- End of accordion item -->
+                <div class="accordion-item-body-content-item">
+                  <div class="accordion-item-lang-title">
+                    <span>Photography <i class="fas fa-camera" style="color: #000;"></i> </span>
+                    <p>70%</p>
+                  </div>
+                  <div class="accordion-progress">
+                    <span style="width: 70%;"></span>
+                  </div>
+                </div>
+                <!-- End of accordion item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#e5e5e5" fill-opacity="1" d="M0,224L48,224C96,224,192,224,288,192C384,160,480,96,576,96C672,96,768,160,864,202.7C960,245,1056,267,1152,240C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+  </svg>
+
+
+  <!-- Qualification -->
+  <section id="qualification" class="qualification">
+    <div class="container">
+      <div class="section-container">
+        <div class="section-info">
+          <h2 class="section-info-title">Qualification</h2>
+          <h2 class="section-info-title-sub">Professional background</h2>
+        </div>
+        <!-- Timeline -->
+        <div class="timeline">
+          <div class="timeline-header">
+            <span><i class="fas fa-graduation-cap"></i> Education</span>
+            <span><i class="fas fa-briefcase"></i> Work</span>
+          </div>
+          <!-- Timeline Map -->
+          <div class="timeline-content">
+            <ul>
+              <li>
+                <div class="timeline-content-card educ">
+                  <h4>BS Computer Science</h4>
+                  <a href="https://www.ama.edu.ph/" target="_blank"><i class="fas fa-map-marker-alt"></i>Ama Computer College Biñan, Laguna</a>
+                  <p class="text-muted"><i class="fas fa-calendar-alt"></i> 2019-2022</p>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-content-card work">
+                  <h4>Web Developer Intern</h4>
+                  <a href="https://filinvestcity.com/" target="_blank"><i class="fas fa-map-marker-alt"></i> FilInvest Alabang Company</a>
+                  <p class="text-muted"><i class="fas fa-calendar-alt"></i> 2022-2022</p>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-content-card educ">
+                  <h4>Full Stack Development Bootcamp</h4>
+                  <a href="https://www.traversymedia.com/" target="_blank"><i class="fas fa-map-marker-alt"></i> BradTraversyMedia Company</i></a>
+                  <p class="text-muted"><i class="fas fa-calendar-alt"></i> 2022-2023</p>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-content-card work">
+                  <h4>Full Stack Web Developer</h4>
+                  <a href="https://filinvestcity.com/" target="_blank"><i class="fas fa-map-marker-alt"></i> FilInvest Alabang Company</i></a>
+                  <p class="text-muted"><i class="fas fa-calendar-alt"></i> 2023-2025</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Project gallery -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#e5e5e5" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,160C384,181,480,235,576,218.7C672,203,768,117,864,80C960,43,1056,53,1152,69.3C1248,85,1344,107,1392,117.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+  </svg>
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-container">
+        <div class="section-info">
+          <h2 class="section-info-title">Work/Portfolio</h2>
+          <h2 class="section-info-title-sub">My Projects throughout the career</h2>
+        </div>
+        <div class="projects-content">
+          <div class="projects-content-header">
+            <button class="btn-project" title="Category-All" data-category="all">All</button>
+            <button class="btn-project" title="Category-HTML" data-category="html">HTML & CSS</button>
+            <button class="btn-project" title="Category-Bootstrap" , data-category="bootstrap">Bootstrap</button>
+            <button class="btn-project" title="Category-Javascript" , data-category="javascript">Javascript</button>
+          </div>
+          <!-- Gallery content -->
+          <div class="projects-content-gallery" id="project-gallery"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-container">
+        <div class="section-info">
+          <h2 class="section-info-title">Contact Me</h2>
+          <h2 class="section-info-title-sub">Get in touch</h2>
+        </div>
+        <div class="contact-content">
+          <!-- Contact Form -->
+          <form>
+            <div class="form-row">
+              <input type="text" name="name" placeholder="Name" id="input-name">
+              <input type="email" name="email" placeholder="Email" id="input-email">
+            </div>
+            <div class="form-row">
+              <input type="text" name="project" id="input-project" placeholder="Project (optional)">
+            </div>
+            <div class="form-row">
+              <textarea name="message" id="input-message" rows="10" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" class="btn btn-form" value="Send Message">
+          </form>
+          <!-- Contact infos -->
+          <div class="contact-content-info">
+            <div class="contact-content-info-item">
+              <i class="fas fa-phone-alt"></i>
+              <span>
+                <h3>Call Me</h3>
+                <p>+63 9774816051</p>
+              </span>
+            </div>
+            <div class="contact-content-info-item">
+              <i class="fas fa-envelope"></i>
+              <span>
+                <h3>Email</h3>
+                <p>vincejepoy@gmail.com</p>
+              </span>
+            </div>
+            <div class="contact-content-info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>
+                <h3>Location</h3>
+                <p>Laguna, Philippines</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-content-title">
+          <h2 class="lead">Jaramiah</h2>
+          <h3>Full Stack Developer</h3>
+        </div>
+        <div class="footer-content-social">
+          <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+          <a href="#"><i class="fab fa-github"></i> Github</a>
+          <a href="https://www.facebook.com/vincejepoymendoza" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+          <a href="https://www.instagram.com/vincejepoymendoza/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="copyright">
+    <h5>Copyright &copy; <span id="year"></span> | <a href="#">Jaramiah</a> </h5>
+  </div>
+
+  <!-- <span id="scroolToTopBtn"></span> -->
+  <a href="#home" id="scrollToTopBtn"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
